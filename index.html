@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image.png" href="https://kacanik.rks-gov.net/wp-content/uploads/2024/04/Stema_e_Komunes_Kacanik.svg.png">
+    <title>Home - Komuna Kaçanik</title>
+    <link href="./assets/css/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="pt-5 hidden md:block">
+        <div class="container mx-auto flex justify-end items-center gap-6 px-4">
+                <div class="flex items-center gap-1 font-medium text-sm">
+                    <span>SQ</span>
+                    <i class="fa-solid fa-caret-down text-xs"></i>
+                </div>
+                <div class="flex items-center gap-4">
+                    <div class="relative">
+                        <input type="text" placeholder="Kërko..." class="border border-gray-300 px-4 py-1.5 text-xs w-56 pr-12">
+                        <div class="absolute top-2 left-[170px] flex items-center gap-2 text-blue-700 text-sm">
+                            <i class="fa-solid fa-angle-down"></i>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <ul class="hidden absolute bg-white mt-2 shadow-lg text-xs z-10 w-full">
+                            <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">Vetem takstet e njejta</a></li>
+                            <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">Kerkoni ne titull</a></li>
+                            <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">Kerkoni ne permbajtje</a></li>
+                            <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">Postimet</a></li>
+                            <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">Faqe</a></li>
+                            <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">lajme</a></li>
+                            <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">Ngjarje</a></li>
+                            <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">Thirrjet publike</a></li>
+                            <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">Filtro sipas kategorive</a></li>
+                            <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">Aplikacione</a></li>
+                            <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">Bugjeti</a></li>
+                            <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">Bugjeti-Financat</a></li>
+                            <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">Dokumentet</a></li>
+                            <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">Draft Dokumente</a></li>
+                            <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">Ekstratet e procesverbaleve - Degjim Publike</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <a href="#" class="inline-block no-underline font-normal px-[30px] py-[6px] bg-[#0b4c9c] hover:bg-[#083d7d] text-white text-sm transition-all duration-300">Si mund te?</a>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <header class="pb-2">
+        <div class="w-[95%] mx-auto flex flex-wrap justify-between gap-4 items-center">
+            <img src="https://kacanik.rks-gov.net/wp-content/uploads/2024/10/Logo-3.png.avif" alt="Republika e Kosoves - Komuna Kaçanik" class="w-75">
+            <label for="menu" class="block md:hidden cursor-pointer">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <input type="checkbox" id="menu" class="hidden appearance-none peer/menu">
+            <nav class="hidden peer-checked/menu:flex md:block flex-col w-full mt-4 md:mt-0">
+                <ul class="flex flex-col md:flex-row md:flex-wrap md:justify-end items-start md:items-center gap-2 md:gap-4">
+                    <li><a href="#" class="font-semibold">Ballina</a></li>
+                    <li class="group relative">
+                        <a href="#" class="font-semibold">Kryetari <i class="fa-solid fa-angle-down"></i></a>
+                        <ul class="hidden group-hover:block absolute z-50 bg-white shadow-md mt-2 w-max">
+                            <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">Kryetar</a></li>
+                            <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">Deklarimi i pasurise - Kryetari</a></li>
+                            <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">Nenkryetari</a></li>
+                            <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">Kabineti</a></li>
+                            <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">Organizimi</a></li>
+                            <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">Vendimet</a></li>
+                            <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">Raportet</a></li>
+                            <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">Zyra / Njesit</a></li>
+                            <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">Video</a></li>
+                            <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">Raporto problemet e sigurise ne bashkesi</a></li>
+                        </ul>
+                    </li>
+                    <li class="group relative">
+                        <a href="#" class="font-semibold">Kuvendi <i class="fa-solid fa-angle-down"></i></a>
+                        <ul class="hidden group-hover:block absolute absolute z-50 bg-white shadow-md mt-2 w-max">
+                            <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">Asambleistet/keshilltaret</a></li>
+                            <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">Komitetet</a></li>
+                            <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">Kryesuesi</a></li>
+                            <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">Statuti</a></li>
+                            <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">Procesverbalet / Ftese</a></li>
+                            <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">Rregulloret</a></li>
+                            <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">Vendimet</a></li>
+                            <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">Dokumentet</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="font-semibold">Drejtorite</a></li>
+                    <li><a href="#" class="font-semibold">Qyteti</a></li>
+                    <li><a href="#" class="font-semibold">Investimet</a></li>
+                    <li><a href="#" class="font-semibold">Prokurimi</a></li>
+                    <li><a href="#" class="font-semibold">Shpalljet</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="relative z-[1] h-[410px] flex items-center justify-start bg-[url('../images/KacanikHeroImage.png')] bg-cover bg-[center_50%] bg-no-repeat brightness-[1.25] text-white">
+        <div class="w-[72%] mx-auto">
+            <hgroup>
+                <h4 class="text-2xl mb-2">Mirë se vini në faqen zyrtare të</h4>
+                <h1 class="text-5xl font-bold">Komunës së Kaçanikut</h1>
+            </hgroup>
+        </div>
+    </main>
+
+    <section id="sherbimet" class="bg-[#f8f8f8] relative z-[2] pt-20 ">
+        <div class="w-[72%] mx-auto relative z-10 -translate-y-[100px]">
+            <div class="bg-white p-10 relative z-10 -translate-y-[75px]">
+                <h1 class="mb-8 text-[28px] font-semibold">
+                    <a href="#" class="text-black hover:underline">SHËRBIMET</a></h1>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-10">
+                    <div class="flex flex-col items-start text-left gap-2">
+                        <a href="#" class="flex items-center gap-5 text-black hover:underline">
+                            <img src="https://kacanik.rks-gov.net/wp-content/uploads/2024/07/document.png" alt="Gjendja Civile" class="w-[50px] h-[50px]">
+                            <div class="flex-1">
+                                <p class="m-0 text-[13px] font-normal">Gjendja Civile</p>
+                            </div>
+                            <div class="ml-auto text-xs text-[#004388]">
+                                <span><i class="fa-solid fa-angle-right"></i></span> 
+                            </div>
+                        </a>
+                        <div class="h-[0.5px] bg-[#004388] mt-4 w-full">
+                        </div>
+                    </div>
+                    <div class="flex flex-col items-start text-left gap-2">
+                        <a href="#" class="flex items-center gap-5 text-black hover:underline">
+                            <img src="https://kacanik.rks-gov.net/wp-content/uploads/2024/07/taxes.png" alt="Tatimi në pronë" class="w-[60px] h-[60px]">
+                            <div class="flex-1">
+                                <p class="m-0 text-[13px] font-normal">Tatimi në pronë</p>
+                            </div>
+                            <div class="ml-auto text-xs text-[#004388]">
+                                <span><i class="fa-solid fa-angle-right"></i></span> 
+                            </div>
+                        </a>
+                        <div class="h-[0.5px] bg-[#004388] mt-4 w-full">
+                        </div>
+                    </div>
+                    <div class="flex flex-col items-start text-left gap-2">
+                        <a href="#" class="flex items-center gap-5 text-black hover:underline">
+                            <img src="https://kacanik.rks-gov.net/wp-content/uploads/2024/07/insurance.png" alt="Taksa komunale për regjistrim të automjeteve" class="w-[50px] h-[50px]">
+                            <div class="flex-1">
+                                <p class="m-0 text-[13px] font-normal">Taksa komunale për regjistrim të automjeteve</p>
+                            </div>
+                            <div class="ml-auto text-xs text-[#004388]">
+                                <span><i class="fa-solid fa-angle-right"></i></span> 
+                            </div>
+                        </a>
+                        <div class="h-[0.5px] bg-[#004388] mt-4 w-full">
+                        </div>
+                    </div>
+                    <div class="flex flex-col items-start text-left gap-2">
+                        <a href="#" class="flex items-center gap-5 text-black hover:underline">
+                            <img src="https://kacanik.rks-gov.net/wp-content/uploads/2024/07/taxes.png" alt="Bugjeti-Financat" class="w-[50px] h-[50px]">
+                            <div class="flex-1">
+                                <p class="m-0 text-[13px] font-normal">Bugjeti-Financat</p>
+                            </div>
+                            <div class="ml-auto text-xs text-[#004388]">
+                                <span><i class="fa-solid fa-angle-right"></i></span> 
+                            </div>
+                        </a>
+                        <div class="h-[0.5px] bg-[#004388] mt-4 w-full">
+                        </div>
+                    </div>
+                    <div class="flex flex-col items-start text-left gap-2">
+                        <a href="#" class="flex items-center gap-5 text-black hover:underline">
+                            <img src="https://kacanik.rks-gov.net/wp-content/uploads/2024/07/house-deeds.png" alt="Fleta poseduese Kopja e planit" class="w-[50px] h-[50px]">
+                            <div class="flex-1">
+                                <p class="m-0 text-[13px] font-normal">Fleta poseduese Kopja e planit</p>
+                            </div>
+                            <div class="ml-auto text-xs text-[#004388]">
+                                <span><i class="fa-solid fa-angle-right"></i></span> 
+                            </div>
+                        </a>
+                        <div class="h-[0.5px] bg-[#004388] mt-4 w-full">
+                        </div>
+                    </div>
+                    <div class="flex flex-col items-start text-left gap-2">
+                        <a href="#" class="flex items-center gap-5 text-black hover:underline">
+                            <img src="https://kacanik.rks-gov.net/wp-content/uploads/2024/07/bill.png" alt="Fatura e mbeturinave / Oraret e mbledhjes së mbeturinave" class="w-[50px] h-[50px]">
+                            <div class="flex-1">
+                                <p class="m-0 text-[13px] font-normal">Fatura e mbeturinave / Oraret e mbledhjes së mbeturinave</p>
+                            </div>
+                            <div class="ml-auto text-xs text-[#004388]">
+                                <span><i class="fa-solid fa-angle-right"></i></span> 
+                            </div>
+                        </a>
+                        <div class="h-[0.5px] bg-[#004388] mt-4 w-full">
+                        </div>
+                    </div>
+                    <div class="flex flex-col items-start text-left gap-2">
+                        <a href="#" class="flex items-center gap-5 text-black hover:underline">
+                            <img src="https://kacanik.rks-gov.net/wp-content/uploads/2024/08/conference-300x300.png" alt="Himni" class="w-[50px] h-[50px]">
+                            <div class="flex-1">
+                                <p class="m-0 text-[13px] font-normal">Himni</p>
+                            </div>
+                            <div class="ml-auto text-xs text-[#004388]">
+                                <span><i class="fa-solid fa-angle-right"></i></span> 
+                            </div>
+                        </a>
+                        <div class="h-[0.5px] bg-[#004388] mt-4 w-full">
+                        </div>
+                    </div>
+                    <div class="flex flex-col items-start text-left gap-2">
+                        <a href="#" class="flex items-center gap-5 text-black hover:underline">
+                            <img src="https://kacanik.rks-gov.net/wp-content/uploads/2024/07/insurance.png" alt="Autorizime" class="w-[50px] h-[50px]">
+                            <div class="flex-1">
+                                <p class="m-0 text-[13px] font-normal">Autorizime</p>
+                            </div>
+                            <div class="ml-auto text-xs text-[#004388]">
+                                <span><i class="fa-solid fa-angle-right"></i></span> 
+                            </div>
+                        </a>
+                        <div class="h-[0.5px] bg-[#004388] mt-4 w-full">
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-end mt-10 text-sm">
+                    <a href="#" class="inline-block px-10 py-4 bg-[#014A94] text-white font-normal transition-all duration-300 hover:bg-[#00376e]">
+                        Të gjitha shërbimet
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="lajmet-e-fundit" class="bg-[#f8f8f8] w-full py-6">
+        <div class="w-[90%] lg:w-[70%] mx-auto">
+            <h2 class="mb-4 text-[24px] md:text-[27px] font-semibold">
+                <a href="#" class="text-black hover:underline">Lajmet e fundit</a></h2>
+            <div class="flex flex-col lg:flex-row gap-5">
+                <div class="w-full lg:w-[80%] flex flex-col gap-4">
+                    <div class="bg-white flex flex-col gap-5 p-4 hover:shadow-xl cursor-pointer transition-all">
+                        <div class="flex flex-col md:flex-row items-start gap-5">
+                            <img src="https://kacanik.rks-gov.net/wp-content/uploads/2025/06/Stema_e_Komun%C3%ABs_Ka%C3%A7anik.svg" alt="Stema e Komunes" class="w-[300px] h-[200px] object-cover object-center flex-shrink-0">
+                            <div class="pt-3">
+                                <h3 class="text-[18px] font-medium mb-2">18 përfitues nga Komuna e Kaçanikut në programin “Subvencionimi i Bizneseve Start-Up 2025”</h3>
+                                <p class="text-[13px] text-gray-600 mb-1">
+                                    <i class="fa-solid fa-calendar fa-xs"></i> 
+                                    22/06/2025
+                                </p>
+                                <p class="text-[13.2px] pr-5">Kryetari i Komunës së Kaçanikut Besim Ilazi, priti në zyren e tij 18 përfitues të programit “Subvencionimi i Bizneseve Start-Up...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white flex flex-col gap-5 p-4 hover:shadow-xl cursor-pointer transition-all">
+                        <div class="flex flex-col md:flex-row items-start gap-5">
+                            <img src="https://kacanik.rks-gov.net/wp-content/uploads/2025/06/Stema_e_Komun%C3%ABs_Ka%C3%A7anik.svg" alt="Stema e Komunes" class="w-[300px] h-[200px] object-cover object-center flex-shrink-0">
+                            <div class="pt-3">
+                                <h3 class="text-[18px] font-medium mb-2">FTESË PËR MBLEDHJE</h3>
+                                <p class="text-[13px] text-gray-600 mb-1">
+                                    <i class="fa-solid fa-calendar fa-xs"></i> 
+                                    22/06/2025
+                                </p>
+                                <p class="text-[13.2px] pr-5">Në bazë të nenit 43 të Ligjit për Vetëqeverisjen Lokale, mbahet mbledhja e VI (gjashtë) e rregullt Kuvendit të Komunës...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white flex flex-col gap-5 p-4 hover:shadow-xl cursor-pointer transition-all">
+                        <div class="flex flex-col md:flex-row items-start gap-5">
+                            <img src="https://kacanik.rks-gov.net/wp-content/uploads/2025/06/Stema_e_Komun%C3%ABs_Ka%C3%A7anik.svg" alt="Stema e Komunes" class="w-[300px] h-[200px] object-cover object-center flex-shrink-0">
+                            <div class="pt-3">
+                                <h3 class="text-[18px] font-medium mb-2">Mbahet konsultimi Publik për dokumentin për Vlerësimin Strategjik Mjedisor (VSM) për Planin Ndërkomunal për Menaxhimin e Integruar të...</h3>
+                                <p class="text-[13px] text-gray-600 mb-1">
+                                    <i class="fa-solid fa-calendar fa-xs"></i> 
+                                    22/06/2025
+                                </p>
+                                <p class="text-[13.2px] pr-5">Komuna e Kaçanikut përmes drejtorisë për Shërbime Publike dhe Emergjnca, ka mbajtur sot konsultimin publik për dokumentin për Vlerësimin Strategjik...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-5">
+                        <a href="#"
+                        class="block w-full text-center px-[38px] py-[18px] bg-[#04408b] text-white text-sm font-medium rounded hover:bg-[#033671] transition-all">
+                            Shiko të gjitha lajmet
+                        </a>
+                    </div>
+                </div>
+                
+            <div class="bg-black text-white flex flex-col justify-between items-center gap-5 py-5 w-full lg:w-[250px] h-[255px]">
+                <h3 class="text-[29px] font-medium text-center w-[94%] leading-snug">
+                    <a href="#" class="hover:underline">Thirrjet Publike</a>
+                </h3>
+                <div class="border border-white w-[85%] h-[60px] flex items-center justify-center text-[12px] hover:bg-white hover:text-black transition">
+                    <a href="#" class="pt-[10px]">Shiko më shumë</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="ngjarjet" class="relative w-full h-[820px] mt-[30px] bg-[url('../images/City_downtown.png')] bg-cover bg-center bg-no-repeat text-white py-[100px]">
+        <div class="absolute inset-0 bg-white/10 z-[1]"></div>
+        <div class="w-[72%] mx-auto relative z-[2] flex justify-between items-center">
+            <h2 class="text-white text-[30px] font-medium mt-[127px] ml-[15px] self-start">
+                <a href="#" class="hover:underline">Ngjarjet</a></h2>
+            <div class="mt-[230px] mr-[15px]">
+                <a href="#" class="bg-[#05408c] hover:bg-[#1c6dd6] text-white font-semibold text-[14px] w-[195px] h-[60px] flex items-center justify-center transition-all">Më shumë evente</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="linqe-publikime" class="w-full bg-[url('../images/foto3.png')] bg-cover bg-center bg-no-repeat py-16 px-4 md:px-0">
+        <div class="w-[72%] mx-auto z-[2]">
+            <h2 class="text-[28px] font-semibold mb-5">Linqe</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[30px] pb-10 mt-[-20px]">
+                <div class="flex flex-col items-center gap-[10px] bg-white px-[15px] pt-5 pb-[10px] transition-all hover:-translate-y-[5px] hover:shadow-xl cursor-pointer">
+                    <a href="#">
+                        <img src="https://kacanik.rks-gov.net/wp-content/uploads/2024/07/logo2.png" alt="Portali Shtetëror / Platforma e shërbimeve online" class="w-[60px] mb-5 mx-auto">
+                        <p class="text-[18px] font-[440] text-black text-center hover:underline">
+                            Portali Shtetëror / Platforma e shërbimeve online
+                        </p>
+                    </a>
+                </div>
+                <div class="flex flex-col items-center gap-[10px] bg-white px-[15px] pt-5 pb-[10px] transition-all hover:-translate-y-[5px] hover:shadow-xl cursor-pointer">
+                    <a href="#">
+                        <img src="https://kacanik.rks-gov.net/wp-content/uploads/2024/07/people.png" alt="Gazeta zyrtare" class="w-[60px] mb-5 mx-auto">
+                        <p class="text-[18px] font-[440] text-black text-center hover:underline">
+                            Gazeta zyrtare
+                        </p>
+                    </a>
+                </div>
+                <div class="flex flex-col items-center gap-[10px] bg-white px-[15px] pt-5 pb-[10px] transition-all hover:-translate-y-[5px] hover:shadow-xl cursor-pointer">
+                    <a href="#">
+                        <img src="https://kacanik.rks-gov.net/wp-content/uploads/2024/07/business.png" alt="Platforma e konsultimeve publike" class="w-[60px] mb-5 mx-auto">
+                        <p class="text-[18px] font-[440] text-black text-center hover:underline">
+                            Platforma e konsultimeve publike
+                        </p>
+                    </a>
+                </div>
+                <div class="flex flex-col items-center gap-[10px] bg-white px-[15px] pt-5 pb-[10px] transition-all hover:-translate-y-[5px] hover:shadow-xl cursor-pointer">
+                    <a href="#">
+                        <img src="https://kacanik.rks-gov.net/wp-content/uploads/2024/07/agreement.png" alt="Platforma e-Prokurimi" class="w-[60px] mb-5 mx-auto">
+                        <p class="text-[18px] font-[440] text-black text-center hover:underline">
+                            Platforma e-Prokurimi
+                        </p>
+                    </a>
+                </div>
+                <div class="flex flex-col items-center gap-[10px] bg-white px-[15px] pt-5 pb-[10px] transition-all hover:-translate-y-[5px] hover:shadow-xl cursor-pointer">
+                    <a href="#">
+                        <img src="https://kacanik.rks-gov.net/wp-content/uploads/2024/07/information.png" alt="Sistemi Informativ për Menaxhimin e Burimeve Njerëzore (SIMBNJ) / Konkurset" class="w-[60px] mb-5 mx-auto">
+                        <p class="text-[18px] font-[440] text-black text-center hover:underline">
+                            Sistemi Informativ për Menaxhimin e Burimeve Njerëzore (SIMBNJ) / Konkurset
+                        </p>
+                    </a>
+                </div>
+                <div class="flex flex-col items-center gap-[10px] bg-white px-[15px] pt-5 pb-[10px] transition-all hover:-translate-y-[5px] hover:shadow-xl cursor-pointer">
+                    <a href="#">
+                        <img src="https://kacanik.rks-gov.net/wp-content/uploads/2024/07/survey.png" alt="Organi Shqyrtues i Prokurimit" class="w-[60px] mb-5 mx-auto">
+                        <p class="text-[18px] font-[440] text-black text-center hover:underline">
+                            Organi Shqyrtues i Prokurimit
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <h2 class="text-[28px] font-semibold mb-5">Publikime</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-[20px] mt-[-20px]">
+                <div class="bg-white p-[22px] transition-all hover:-translate-y-[5px] hover:shadow-xl cursor-pointer">
+                    <a href="#" class="text-[18px] font-[440] text-black hover:underline">Dëgjimet buxhetore</a>
+                </div>
+                <div class="bg-white p-[22px] transition-all hover:-translate-y-[5px] hover:shadow-xl cursor-pointer">
+                    <a href="#" class="text-[18px] font-[440] text-black hover:underline">Buxhetimi me pjesëmarrje</a>
+                </div>
+                <div class="bg-white p-[22px] transition-all hover:-translate-y-[5px] hover:shadow-xl cursor-pointer">
+                    <a href="#" class="text-[18px] font-[440] text-black hover:underline">Performanca komunale</a>
+                </div>
+                <div class="bg-white p-[22px] transition-all hover:-translate-y-[5px] hover:shadow-xl cursor-pointer">
+                    <a href="#" class="text-[18px] font-[440] text-black hover:underline">Planet hapësinore komunale</a>
+                </div>
+                <div class="bg-white p-[22px] transition-all hover:-translate-y-[5px] hover:shadow-xl cursor-pointer">
+                    <a href="#" class="text-[18px] font-[440] text-black hover:underline">Takimet publike</a>
+                </div>
+                <div class="bg-white p-[22px] transition-all hover:-translate-y-[5px] hover:shadow-xl cursor-pointer">
+                    <a href="#" class="text-[18px] font-[440] text-black hover:underline">Konsultimet publike</a>
+                </div>
+                <div class="bg-white p-[22px] transition-all hover:-translate-y-[5px] hover:shadow-xl cursor-pointer">
+                    <a href="#" class="text-[18px] font-[440] text-black hover:underline">Videoinqizimet e mbledhjeve të kuvendit komunal</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="mbledhja" class="bg-[#04408b] py-[60px]">
+        <div class="w-[72%] mx-auto flex flex-col lg:flex-row justify-between items-start gap-[40px]">
+            <div class="">
+                <div class="flex-1 min-w-[300px] max-w-[650px]">
+                    <h2 class="mb-5 text-[28px] font-semibold text-white leading-[1.3]">
+                        <a href="#" class="hover:underline">Shiko online mbledhjen e Kuvendit të Komunës</a></h2>
+                    <iframe class="w-full h-[315px] border-none" src="https://www.youtube.com/embed/CTqYkFBH-vU?si=LHPwhEskRGG3j36x" title="YouTube video player"></iframe>
+                </div>
+            </div>
+            <div class="flex-1 flex flex-col gap-[30px] text-white min-w-[280px] ml-10 pt-4">
+                <a href="#" class="flex items-center justify-between border-b border-white pb-3 text-[20px] font-medium hover:opacity-80 transition-all duration-300">
+                    <span class="flex items-center gap-3">
+                    <i class="fa-regular fa-comment text-[22px] opacity-80"></i>
+                    Pyetje të shpeshta
+                    </span>
+                </a>
+                <a href="#" class="flex items-center justify-between border-b border-white pb-3 text-[20px] font-medium hover:opacity-80 transition-all duration-300">
+                    <span class="flex items-center gap-3">
+                    <img class="w-[22px] h-[22px]" src="data:image/png;base64,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">
+                    Na kontaktoni
+                    </span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-[#2b2b2b] pt-[40px] pb-[10px] w-full text-[#cccccc] text-[12px]">
+        <div class="w-[85%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10"">
+            <div>
+                <img src="https://kacanik.rks-gov.net/wp-content/uploads/2024/10/Logo-footer-3.png.avif"  alt="Logo e komunes" class="h-[50px]">
+                <p class="mt-[10px] pr-[30px] leading-[1.8]">
+                    Rr”Qamil Ilazi”<br>
+                    Tel. +383 (0) 290 380 047;<br>
+                    038 200 46 400 <br>
+                    <span>Qendra e thirrjeve pa pagesë</span> <br>
+                    <span>0800 110 14</span>
+                </p>
+            </div>
+            <div>
+                <h3 class="text-[#cccccc] font-semibold mb-2">Vegeza</h3>
+                <ul class=""> 
+                    <li class="my-[10px]"><a href="#" class="hover:underline font-semibold">Komisionit Rregullativ i Prokurimit</a></li>
+                    <li class="my-[10px]"><a href="#" class="hover:underline font-semibold">e-Prokurimi</a></li>
+                    <li class="my-[10px]"><a href="#" class="hover:underline font-semibold">e-Kosova – Certifikata Online</a></li>
+                    <li class="my-[10px]"><a href="#" class="hover:underline font-semibold">Web – mail</a></li>
+                    <li class="my-[10px]"><a href="#" class="hover:underline font-semibold">Platformën e konsultimeve publike – Bëjeni zërin tuaj të dëgjohet</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-[#cccccc] font-semibold mb-2">Faqet</h3>
+                <ul class="">
+                    <li class="my-[10px]"><a href="#" class="hover:underline font-semibold">Home</a></li>
+                    <li class="my-[10px]"><a href="#" class="hover:underline font-semibold">Videoinçizimet e mbledhjeve të kuvendit komunal</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-[#cccccc] font-semibold mb-2">Rrjetet Social</h3>
+                <ul class="">
+                    <li class="my-[10px]"><a href="#" class="hover:underline font-semibold">Facebook</a></li>
+                    <li class="my-[10px]"><a href="#" class="hover:underline font-semibold">Youtube – Komuna Kacanik</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="mt-[40px] text-center pt-[20px] text-[#909090]">
+                <hr class="w-[90%] max-w-[1300px] mx-auto mb-[10px] h-[1px] bg-[#909090] border-none">
+                <p class="text-[#909090]">2025 © Të gjitha të drejtat e rezervuara | Komuna e Kaçanikut.</p>
+            </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: "Segoe UI";
+    src: url('../fonts/Segoe\ UI.ttf');
+}
+@font-face {
+    font-family: "Arial";
+    src: url(../fonts/ARIAL.TTF);
+}
+
+@theme {
+    --white: rgba(255,254,255,255);
+    --black: #000000;
+    --text: rgba(0,0,0,255);
+    --bg-light-gray: #f8f8f8;
+    --bg-darkblue: #04408b;
+    --bg-darkgrey: #282828;
+    --color-btn: rgba(5,64,140,255);
+    --hover-btn: rgba(28,109,214,255);
+    --bg-vija: rgba(149,149,149,255);
+    --teksti-footer: #d4d4d4;
+    --ul-color: #f1f1f1;
+    --vija-color: #004388;
+
+    --heading: 'Roboto', sans-serif;
+    --primary: 'Roboto', sans-serif;
+}
